@@ -28,11 +28,12 @@
 
 #### tab首选项设置
 tabsize    4
-Editor: Detect Indentation(是否自动控制tab,一般在接管老程序的时候有用)      true or false
+Editor: Detect Indentation(是否自动控制tab,一般在接管老程序的时候有用)  
+true or false
 
 #### 折行
-Diff Editor: Word Wrap         // 超出可显示范围时折到下一行,设置wordWrapColumn
-vscode 折行起始位置: Editor: Word Wrap Column  // 默认为80,我设置为100
+Diff Editor: Word Wrap         // 超出可显示范围时折到下一行,设置wordWrapColumn  
+vscode 折行起始位置: Editor: Word Wrap Column  // 默认为80,我设置为100  
 
 ### 通用插件
 #### vscode-icons
@@ -48,15 +49,13 @@ vscode 折行起始位置: Editor: Word Wrap Column  // 默认为80,我设置为
 多重括号显示为不同颜色
 
 #### Gitlens
-​使用VSCode的原因之一，便是VSCode官方自带版本管理功能。而Gitlens是对GIT的版本控制的补充。开启Gitlens后，每一行都可以看到提交信息。可以快速的插件代码差异再爽不过了。 
+使用VSCode的原因之一，便是VSCode官方自带版本管理功能。而Gitlens是对GIT的版本控制的补充。开启Gitlens后，每一行都可以看到提交信息。可以快速的插件代码差异再爽不过了。 
 
 #### Code Alignment
 安装好，即可实现的功能：
-- 按字符进行代码对齐
-- 按正则表达式进行代码对齐
-
-如下图，默认有五种对齐方式，对于我来说，其中的按字符对齐和按正则表达式对齐就足够适应所有的情况。我习惯将对齐的快捷键更改为`Alt+A`;
-
+1. 按字符进行代码对齐
+2. 按正则表达式进行代码对齐
+*如下图，默认有五种对齐方式，对于我来说，其中的按字符对齐和按正则表达式对齐就足够适应所有的情况。我习惯将对齐的快捷键更改为`Alt+A`;*  
 ![按键](https://img-blog.csdnimg.cn/20200409230549999.png#pic_center)
 ![示例](https://img-blog.csdnimg.cn/20200409230607472.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05lb2NzdA==,size_16,color_FFFFFF,t_70#pic_center)
 
@@ -80,7 +79,7 @@ C:\Users\hp\.vscode\extensions\mshr-h.veriloghdl-1.5.1\snippets\verilog.json
 Ctrl+shift+P --> (tpye on)verilog --> (choose)System Verilog:Instance Module
 
 #### hexdump for VSCode
-可以查看二进制文件(对于FPGA开发查看二进制文件的需求不是很多，但也有。我很少去打开BIN文件，但我经常去比对Zynq器件的HDF文件–)
+可以查看二进制文件(对于FPGA开发查看二进制文件的需求不是很多，但也有。我很少去打开BIN文件，但我经常去比对Zynq器件的HDF文件)
 
 ####  verilog-simplealign
 代码格式化：全选-->ctrl+l
