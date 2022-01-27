@@ -1,24 +1,21 @@
-###  通用
+###  通用设置
 
 #### 忽略.bak文件
 如果我不想显示".bak"这样的文件可以打开VSCode->setting->text editor->files->exclude->add pattern->
 ```txt
 **/*.bak
 ```
-<br>
-或者按下Ctrl+shift+p搜索settings（json）点击打开填写：
 
+或者按下Ctrl+shift+p搜索settings（json）点击打开填写：
 ```json
 "files.exclude":
 {
 "**/*.meta": true
 }
 ```
-<br>
 
 #### 键盘快捷键方式
 文件-首选项-键盘快捷方式
-<br>
 
 #### 字体
 文件-首选项-设置（用户区/工作区）-文本编辑器-字体
@@ -26,55 +23,39 @@
 "editor.fontFamily": "JetBrains Mono",
 "editor.fontFamily": "Fira Code",
 ```
-<br>
 
+#### tab首选项设置
+tabsize    4
+Editor: Detect Indentation(是否自动控制tab,一般在接管老程序的时候有用)      true or false
+### 插件设置
 #### vscode-icons
- 不同文件夹和文件显示为不同的图标 
+不同文件夹和文件显示为不同的图标
 
 ####  GBKtoUTF8
 自动将文件的编码方式由GBK转为UTF8
 
 #### TCL Language Support
  约束文件的语法高亮(再也不是一片白了)[我反正也不知道有什么用...]
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200409230657571.png#pic_center) 
 
 ####  Bracket Pair Colorizer
 多重括号显示为不同颜色
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2020040923062276.png#pic_center)
-
 ### Gitlens
-
 ​使用VSCode的原因之一，便是VSCode官方自带版本管理功能。而Gitlens是对GIT的版本控制的补充。开启Gitlens后，每一行都可以看到提交信息。可以快速的插件代码差异再爽不过了。 
 
 ### Code Alignment
-
 安装好，即可实现的功能：
-
 - 按字符进行代码对齐
 - 按正则表达式进行代码对齐
 
 如下图，默认有五种对齐方式，对于我来说，其中的按字符对齐和按正则表达式对齐就足够适应所有的情况。我习惯将对齐的快捷键更改为`Alt+A`;
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200409230549999.png#pic_center)
-
- 示例： 
-
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200409230607472.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05lb2NzdA==,size_16,color_FFFFFF,t_70#pic_center)
-
-
+![按键](https://img-blog.csdnimg.cn/20200409230549999.png#pic_center)
+![示例](https://img-blog.csdnimg.cn/20200409230607472.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05lb2NzdA==,size_16,color_FFFFFF,t_70#pic_center)
 
 ### Tabout
+按Tab键跳出引号、括号等
 
-- 按Tab键跳出引号、括号等
-
-
-
-### tab首选项设置
-
-tabsize    4
-
-Editor: Detect Indentation(是否自动控制tab,一般在接管老程序的时候有用)      false    
 
 ## Verilog
 
