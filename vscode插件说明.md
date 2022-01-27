@@ -34,7 +34,7 @@ Editor: Detect Indentation(是否自动控制tab,一般在接管老程序的时�
 Diff Editor: Word Wrap         // 超出可显示范围时折到下一行,设置wordWrapColumn
 vscode 折行起始位置: Editor: Word Wrap Column  // 默认为80,我设置为100
 
-### 通用插件设置
+### 通用插件
 #### vscode-icons
 不同文件夹和文件显示为不同的图标
 
@@ -69,7 +69,7 @@ vscode 折行起始位置: Editor: Word Wrap Column  // 默认为80,我设置为
 #### 中文标点符号转英文
 插件名字就叫这个,或者叫autopunc,或者不用这个插件直接在windows设置"中英文标点切换"即可
 
-## Verilog 插件设置
+### Verilog 插件
 [尤老师的FPGA插件-视频](https://www.bilibili.com/video/BV1SK4y1S79m)
 [尤老师的FPGA插件-PDF](dataDoc/第一讲、VScode编辑器软件安装.pdf)
 
@@ -82,15 +82,21 @@ Ctrl+shift+P --> (tpye on)verilog --> (choose)System Verilog:Instance Module
 #### hexdump for VSCode
 可以查看二进制文件(对于FPGA开发查看二进制文件的需求不是很多，但也有。我很少去打开BIN文件，但我经常去比对Zynq器件的HDF文件–)
 
-###  verilog-simplealign
+####  verilog-simplealign
 代码格式化：全选-->ctrl+l
 
-###  Verilog_Testbench
+####  Verilog_Testbench
 生成Testbench内容：ctrl+shift+p -> Testbench
 
 
+### Markdown插件
 
+#### Paste Image
+复制图片到markdown,注意图片粘贴变成了"ctrl+alt+v"
+这个插件实际上就是自动化生成图片模板
 
+#### Markdown All in One
+核心插件
 
-
-
+#### Markdown Preview Enhanced
+更好的markdown可视化
