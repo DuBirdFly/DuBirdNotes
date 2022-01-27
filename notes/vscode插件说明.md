@@ -4,7 +4,7 @@
 
 #### 忽略.bak文件
 如果我不想显示".bak"这样的文件可以打开VSCode->setting->text editor->files->exclude->add pattern->
-```json
+```
 **/*.bak
 ```
 
