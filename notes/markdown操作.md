@@ -29,9 +29,9 @@
 剪切板粘贴: *ctrl+alt+v,会自动在根文件下创建一个图片*
 工程下已有文件粘贴: *输入基本格式后括号内自己选择哪张图片*
 
-![替代文本](pictures/2022-01-27-23-17-30.png "可选的图片标题文本")
+![替代文本](../pictures/2022-01-27-23-17-30.png "可选的图片标题文本")
 
-[![<<日常>>的兔子](pictures/downRabbit.png "倒立的兔子")](https://www.bilibili.com/bangumi/play/ss844)
+[![<<日常>>的兔子](../pictures/downRabbit.png "倒立的兔子")](https://www.bilibili.com/bangumi/play/ss844)
 
 
 <br>
