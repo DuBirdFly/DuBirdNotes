@@ -69,8 +69,9 @@ assign c = a & b;
 endmodule
 ```
 
-
-
+**导出PDF:**
+右上角"MPE:打开侧边预览",在预览里面 右键-->Chrome-->PDF
+*注意需要有chrome浏览器*
 
 
 
