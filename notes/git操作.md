@@ -38,12 +38,12 @@ git push --set-upstream origin master     // 提交代码
 ### 常用指令
 
 #### cd
-```json
+```git
 // 进入到某一级目录下,如进入到'tinyRISCV_Learn'这个文件夹
 (Type on Git)  cd tinyRISCV_Learn/                
 ```
 #### add
-```json
+```git
 // workspace(工作区) --> staging area(暂存区/缓存区)
 // vscode"源代码管理"处的'+'按钮能实现同'git add'的操作
 (Type on Git)  git add top.v                      
