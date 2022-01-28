@@ -60,6 +60,8 @@ $$
 这是一个[链接](https://github.com/DuBirdFly/DuBirdNotes)
 *粘贴板上是一个链接,选中文字,直接ctrl+v的话会自动插入该链接*
 
+**单行代码**
+`printf("Hello Word")`
 
 **代码段:**
 ```verilog
