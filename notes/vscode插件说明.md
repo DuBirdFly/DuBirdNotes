@@ -91,12 +91,12 @@ Ctrl+shift+P --> (tpye on)verilog --> (choose)System Verilog:Instance Module
 
 ### Markdown插件
 
-#### Paste Image
-复制图片到markdown,注意图片粘贴变成了"ctrl+alt+v"
-这个插件实际上就是自动化生成图片模板
-
 #### Markdown All in One
 核心插件
 
 #### Markdown Preview Enhanced
 更好的markdown可视化
+
+#### Paste Image
+复制图片到markdown,注意图片粘贴变成了"ctrl+alt+v"
+这个插件实际上就是自动化生成图片模板
