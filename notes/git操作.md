@@ -79,8 +79,8 @@ git commit -m '全部提交'
 // 这属于"Git 分支管理"的内容,我反正属实是没看懂
 ```
 
-### 常见BUG
-#### 包含强调项
+## 常见BUG
+### 包含强调项
 // [包含强调项(但是没有错误)的解决办法](https://stackoverflow.com/questions/59366833/vs-code-containes-emphasized-items-but-no-error),这其实是一个vscode显示的bug
 解决办法:  ctrl+shift+p 输入 (Developer: )reload window
 
