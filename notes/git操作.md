@@ -1,7 +1,16 @@
-### git
-你需要VPN或者DevSidecar
+### 链接上Git
+你需要VPN或者[DevSidecar](https://gitee.com/docmirror/dev-sidecar)
+
+### 教学文档
 https://www.bilibili.com/video/BV1ua41167Ma
 https://www.runoob.com/git/git-workflow.html
+
+
+
+
+
+
+
 (Right click)  git bush here                        //在此处打开git shell
 // 注意,用tab键可以自动补全代码
 
