@@ -100,3 +100,7 @@ Ctrl+shift+P --> (tpye on)verilog --> (choose)System Verilog:Instance Module
 复制图片到markdown,注意图片粘贴变成了"ctrl+alt+v"
 这个插件实际上就是自动化生成图片模板
 =======
+
+### Matlab插件
+matlab,matlab-formatter,matlab-interactive-terminal这三个插件
+[使用vscode编辑并运行matlab脚本](https://zhuanlan.zhihu.com/p/395486395)
