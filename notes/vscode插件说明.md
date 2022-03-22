@@ -104,3 +104,4 @@ Ctrl+shift+P --> (tpye on)verilog --> (choose)System Verilog:Instance Module
 ### Matlab插件
 matlab,matlab-formatter,matlab-interactive-terminal这三个插件
 [使用vscode编辑并运行matlab脚本](https://zhuanlan.zhihu.com/p/395486395)
+**注意**:在Matlab2020版以后，自带mlint模块的编码格式更改为UTF-8，因此当Matlab更新到2020版后，继续使用以上配置就会出现标题图里的提示信息乱码。2020版本之后**不需要**设置`"matlab.linterEncoding": "gb2312"`,这会导致vscode中的报错乱码
